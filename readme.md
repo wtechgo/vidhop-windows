@@ -2,6 +2,10 @@
 
 WARNING: this repo is work in progress.
 
+This project is trying to configure an MSYS2 environment that supports VidHop.
+
+Configuring `sshd` isn't working out too well, help and advice is welcome.
+
 ## Description
 
 Download videos, channels, playlists, music and thumbnails from any video platform on Windows.

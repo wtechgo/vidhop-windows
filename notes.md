@@ -16,4 +16,13 @@
     allowedSignersFile = %(prefix)/etc/.ssh/allowed_signers
 [commit]
     gpgsign = true
-```á
+```
+
+Add your keys to `C:\Users\USER\.ssh`
+
+Add key to SSH-agent
+```
+eval `ssh-agent` 
+ssh-add  /c/Users/krist/.ssh/ID_KEY
+ssh -vT git@github.com
+```
