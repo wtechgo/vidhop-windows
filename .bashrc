@@ -1,9 +1,11 @@
-bashrc=$HOME/.bashrc
+. /opt/vidhop/bin/loader    # Load VidHop.
 
-# cd & ls
-alias ll='ls -lhtr'
-alias la='ls -lAhtr'
+PS1='vidhop-8> '
 
+alias ll='ls -lrth --color=auto'
+alias la='ls -lrthA --color=auto'
+alias cp='cp -r'
+alias reloadshell='source ~/.bashrc'
 alias nanobashrc='nano $bashrc; source $bashrc'
 
 function python_packages_location() {
